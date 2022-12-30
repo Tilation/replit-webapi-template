@@ -1,4 +1,4 @@
-run = "dotnet run -c release webapi-template-app.sln --urls=http://0.0.0.0:8080"
+run = "dotnet run -c release --project webapi-template/webapi-template.csproj --urls=http://0.0.0.0:8080"
 
 hidden = ["bin", "obj"]
 
